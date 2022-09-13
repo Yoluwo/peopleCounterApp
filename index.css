@@ -20,7 +20,7 @@ h2 {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 80px;
-    color: coral;
+    color: #ff7f50;
 }
 
 div {
@@ -32,21 +32,39 @@ div {
 }
 
 button {
-    border: #4c00a4 2px solid;
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: bold;
-    color: #fff;
     font-size: larger;
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
 }
 
-#increment-btn {
-    background: blueviolet;
+#save-btn {
+    background: #8a2be2;
+    color: #fff;
+    border: #30043d 1px solid;
 }
 
-#save-btn {
-    background: red;
+#save-btn:hover {
+    background: #fff;
+    color: #8a2be2;
+}
+
+#increment-btn {
+    background: #30043d;
+    border: #0e0112 1px solid;
+    color:#fff;
+}
+
+#increment-btn:hover {
+    background: #fff;
+    color: #30043d;
+}
+
+p {
+    color: #fdb36a;
+    font-weight: bolder;
+    font-size: 40px;
 }
