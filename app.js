@@ -22,7 +22,7 @@ let reset = function() {
 and resets the number of people entered when save button is clicked
 */
 function save() {
-    let countStr =" " + count + " , "
+    let countStr =" "+ count + " , "
     saveEl.innerText += countStr
     countEl.textContent = 0;
     count = 0;

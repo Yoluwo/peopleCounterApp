@@ -11,8 +11,9 @@ body {
 }
 
 h1 {
-    margin-top: 250px;
-    font-size: 50px;
+    margin-top: 100px;
+    padding: 30px 20px 0px 20px;
+    font-size: 45px;
     color:#4c00a4;
 }
 
@@ -20,24 +21,26 @@ h2 {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 80px;
-    color: #ff7f50;
+    color: #F09090;
 }
 
 div {
     display: block;
-    background-color: whitesmoke;
-    width: 30%;
+    background-color: #f1eff7;
+    max-width: 35%;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: auto;
 }
 
 button {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: larger;
     width: 200px;
-    margin-bottom: 5px;
+    margin: 10px 30px 10px 30px;
     border-radius: 5px;
 }
 
@@ -48,8 +51,9 @@ button {
 }
 
 #save-btn:hover {
-    background: #fff;
-    color: #8a2be2;
+    color: #Fff;
+    background: #cf643d;
+    border: #EDA8A8 1px solid;
 }
 
 #increment-btn {
@@ -59,12 +63,15 @@ button {
 }
 
 #increment-btn:hover {
-    background: #fff;
-    color: #30043d;
+    color: #Fff;
+    background: #cf643d;
+    border: #EDA8A8 1px solid;
 }
 
 p {
-    color: #fdb36a;
+    color: #F09090;
     font-weight: bolder;
     font-size: 40px;
+    padding: 0px 25px 50px 25px;
+    margin: 20px 30px 20px 30px;
 }
