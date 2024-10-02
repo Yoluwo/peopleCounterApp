@@ -69,6 +69,18 @@ button {
     border: #EDA8A8 1px solid;
 }
 
+#clear-btn {
+    background: #a120aa;
+    color: #fff;
+    border: #804a91 1px solid;
+}
+
+#clear-btn:hover {
+    color: #Fff;
+    background: #ff5517;
+    border: #EDA8A8 1px solid;
+}
+
 p {
     color: #cf643d;
     font-weight: lighter;
