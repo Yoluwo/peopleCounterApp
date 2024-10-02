@@ -1,3 +1,4 @@
-# peopleCounterApp
+# Row counter app
 
-A simple counter app for counting people on a subway
+A simple counter app for counting rows while crocheting or knitting.
+Website: https://craftyrowcounter.netlify.app/
