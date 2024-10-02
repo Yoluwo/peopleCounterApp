@@ -31,7 +31,6 @@ function save() {
     count = 0
 }
 
-
 /* Reset data */
 
 function reset() {
