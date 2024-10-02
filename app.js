@@ -6,25 +6,34 @@
 
 let count = 0
 let countEl = document.getElementById("count-el")
-let saveEl = document.getElementById("save-el")
+
+/*Increment the count variable when the button is clicked*/
 
 function increment() {
     count += 1
-    countEl.textContent = count;
+    // set countEl's innerText to the count
+    countEl.textContent = count
 }
 
-let reset = function() {
-    count = 0;
-    document.getElementById
-}
-
-/*Create a funtion save() which logs out the count when it's called
-and resets the number of people entered when save button is clicked
+/*Save function that logs out the count
+* Grab the save-el paragraph and store it in a variable called saveEl
+* Create a variable that contains both the count and the separator
+* Render the variable in the saveEl using innerText.
+* NB: Make sure not to delete the existing content of the paragraph
 */
+
+let saveEl = document.getElementById("save-el")
+
 function save() {
-    let countStr =" "+ count + " , "
-    saveEl.innerText += countStr
-    countEl.textContent = 0;
-    count = 0;
-    console.log(saveEl, countEl)
+    let countSeparator = count + " - ";
+    saveEl.textContent += countSeparator
+    countEl.textContent = 0
+    count = 0
+}
+
+
+/* Reset data */
+
+function reset() {
+    location.reload();
 }
