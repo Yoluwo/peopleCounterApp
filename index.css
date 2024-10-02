@@ -9,21 +9,21 @@ body {
     font-weight:normal;
     text-align: center;
     height: 100vh;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 h1 {
-    margin-top: 30px;
+    margin-top: 5px;
     padding: 30px 20px 0px 20px;
     font-size: 45px;
     color:#4c00a4;
 }
 
 h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 80px;
-    color: #F09090;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 70px;
+    color: #ff5517;
 }
 
 #container {
@@ -39,7 +39,7 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: bolder;
-    font-size: larger;
+    font-size: medium;
     width: 200px;
     margin: 10px 30px 10px 30px;
     border-radius: 5px;
@@ -48,12 +48,12 @@ button {
 #save-btn {
     background: #8a2be2;
     color: #fff;
-    border: #30043d 1px solid;
+    border: #853e9a 1px solid;
 }
 
 #save-btn:hover {
     color: #Fff;
-    background: #cf643d;
+    background: #ff5517;
     border: #EDA8A8 1px solid;
 }
 
@@ -65,7 +65,7 @@ button {
 
 #increment-btn:hover {
     color: #Fff;
-    background: #cf643d;
+    background: #ff5517;
     border: #EDA8A8 1px solid;
 }
 
@@ -82,9 +82,9 @@ button {
 }
 
 p {
-    color: #cf643d;
-    font-weight: lighter;
-    font-size: 40px;
+    color: #ff5517;
+    font-weight: bold;
+    font-size: 30px;
     padding: 0px 25px 50px 25px;
     margin: 20px 30px 30px 30px;
 }
