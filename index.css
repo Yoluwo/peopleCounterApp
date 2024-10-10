@@ -3,12 +3,13 @@
 }
 
 body {
-    background: url(./Media/subway1.jpg) no-repeat center center fixed;
+    background: url(./Media/paul-hanaoka-4nabmlliGdU-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:normal;
     text-align: center;
     height: 100vh;
+    width:max-content;
     margin-top: 50px;
 }
 
